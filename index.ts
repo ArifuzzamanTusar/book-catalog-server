@@ -20,7 +20,7 @@ app.use(morgan("dev"));
 
 // trial route
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello, world!');
+    res.send('Book Catalog Server is Running 🥳');
 });
 
 // all routes
